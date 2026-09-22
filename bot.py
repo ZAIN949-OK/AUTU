@@ -17,8 +17,8 @@ from aiogram.types import Message, ReplyKeyboardMarkup, KeyboardButton
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger("child-manager")
 
-FATHER_TOKEN = os.environ["FATHER_TOKEN"].strip()
-OWNER_ID = int(os.environ["OWNER_ID"])
+FATHER_TOKEN = os.environ["8704915368:AAFwgnwF_f9XI_1RoijcrajgK-aNv3EP3To"].strip()
+OWNER_ID = int(os.environ["6731551933"])
 DB_PATH = os.getenv("DB_PATH", "botdata.db")
 
 ADD = "➕ Add Child"
